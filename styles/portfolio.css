@@ -165,10 +165,14 @@ main section {
 
 }
 
-.developer {
+/* .developer {
     margin-right: 300px;
     margin-bottom: 20px;
 
+} */
+.developer{
+position: absolute;
+height:725px;
 }
 
 /* .resume-column .resume-column-title {
