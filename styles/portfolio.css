@@ -14,7 +14,7 @@ body {
     background: #FD6E0A;
     border: 0;
     color: white;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 700;
     padding: 15px, 35px;
 }
@@ -27,7 +27,7 @@ nav {
 
 .nav-title {
     color: black;
-    font-size: 45px;
+    font-size: 2em;
     font-weight: bolder 800px;
     margin: 0 200px;
 }
@@ -51,14 +51,13 @@ nav a {
     color: #474747;
 }
 
-/*header related style*/
+
 .header {
     background-color: #fff8f3;
-    background-image: url("../images/header_bg.png");
-    /* background-size: contain; */
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
-
+    background-position: bottom right, center left;
+    
 }
 
 .banner {
@@ -83,13 +82,13 @@ nav a {
 }
 
 .banner-greetings {
-    font-size: 45px;
+    font-size: 1.5em;
     color: #474747;
     margin-bottom: 0px;
 }
 
 .banner-title {
-    font-size: 85px;
+    font-size:3em;
     font-weight: 800px;
     margin-top: 5px;
     margin-bottom: 20px;
@@ -114,16 +113,22 @@ main section {
     margin: 130px 0;
 
 }
+.what-i-do{
+    padding: 50px 130px;
+    background: #e6ded96c;
+    border-radius: 10px;
+    margin: 130px 0;
+}
 
 .section-title {
     color: #181818;
     text-align: center;
-    font-size: 35px;
+    font-size: 2em;
     font-weight: 700;
 }
 
 .section-description {
-    font-size: 20px;
+    font-size: 1em;
     color: #181818;
 }
 
@@ -143,7 +148,7 @@ main section {
     padding: 30px;
     border-radius: 5px;
     background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 6px 50px 0px rgb(3, 3, 3);
 
 
 }
@@ -165,29 +170,19 @@ main section {
 
 }
 
-/* .developer {
-    margin-right: 300px;
-    margin-bottom: 20px;
 
-} */
 .developer{
 position: absolute;
-height:725px;
+height:800px;
 }
 
-/* .resume-column .resume-column-title {
-    font-size: 20px;
-    color: black;
-} */
+
 .title{
     font-size: 40px;
     padding-bottom: 50px;
 }
 .resume-column {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
-    /* display: flex;
-    flex-direction: column; */
+    
 
 }
 
@@ -196,3 +191,45 @@ height:725px;
     grid-template-columns: 1fr 1fr;
     grid-gap:20px;
 }
+.download-btn{
+    text-align: center;
+   
+    margin-top: 30px;
+    
+}
+button{
+    background-color: #FD6E0A;
+    color: white;
+    
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+footer{
+    background-color: #c9c5c5;
+    padding: 130px 200px;
+    display: flex;
+    margin-top: 80px;
+   
+}
+.footer-column{
+    width: 50%;
+    
+
+}
+.social-links a{
+    margin: 25px;
+}
+.contact input[type="text"],.contact input[type="email"],
+textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    background-color: #FFF;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+}
+
